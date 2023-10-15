@@ -16,7 +16,7 @@ active_connections: Dict[str, List[WebSocket]] = {}
 origins = [
     "http://localhost:3000",  # React default
     "http://localhost:8080",  # Commonly used port
-    "*",  # Commonly used port
+    "https://hangman.juan-antonio.xyz/",  # Commonly used port
     # "https://your-deployed-react-app.com",
 ]
 app.add_middleware(
