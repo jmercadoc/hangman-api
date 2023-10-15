@@ -15,4 +15,4 @@ WORKDIR /app
 COPY src/ /app/
 
 # Ejecutar uvicorn para iniciar la aplicación FastAPI
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
