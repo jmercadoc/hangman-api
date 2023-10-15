@@ -17,6 +17,7 @@ origins = [
     "http://localhost:3000",  # React default
     "http://localhost:8080",  # Commonly used port
     "https://hangman.juan-antonio.xyz/",  # Commonly used port
+    "http://hangman.juan-antonio.xyz/",  # Commonly used port
     # "https://your-deployed-react-app.com",
 ]
 app.add_middleware(
